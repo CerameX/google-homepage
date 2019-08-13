@@ -53,6 +53,12 @@ a:hover{
 #signin a {
     color: aliceblue;
     padding: 7px 15px 7px 15px;
+    text-decoration: none;
+    cursor: default;
+}
+
+#signin a:active {
+    background-color: rgb(8, 88, 192);
 }
 
 /* Seach bar */
