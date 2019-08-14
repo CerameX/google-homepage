@@ -1,0 +1,68 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(30, 30, 30)
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 3.8fr 0.6fr 0.3fr 0.3fr;
+    grid-template-areas: "Navbar Navbar Navbar Navbar" "Search Search Search Search" "Privacy Privacy Privacy Privacy" "Country Country Country Country" "Footer Footer Footer Footer";
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Navbar */
+
+.Navbar {
+    grid-area: Navbar;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.Navbar ul {
+    list-style-type: none;
+}
+
+.Navbar li {
+    float: left;
+}
+
+.Navbar li a {
+    display: block;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.Search {
+    grid-area: Search;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Privacy {
+    grid-area: Privacy;
+    background-color: darkseagreen;
+    display: flex;
+    align-items: center;
+}
+
+.Country {
+    grid-area: Country;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+}
+
+.Footer {
+    grid-area: Footer;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+}
