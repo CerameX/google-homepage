@@ -108,3 +108,43 @@ a:hover{
 .languages a {
     color: blue;
 }
+
+/* Footer */
+
+.privacy {
+    margin-top: 200px;
+    border-top: 1px solid rgba(33,33,33,.15);
+    font-size: 18pt;
+    padding: 10px 0 10px 0;
+}
+
+#big-text p {
+    font-size: 40pt;
+}
+
+#sec-pic {
+    padding: 0px 20px 0px 20px;
+}
+
+.country {
+    padding: 1px 0px 1px 20px;
+    background-color: rgba(33,33,33,.05);
+    color: rgba(17, 17, 17, 0.6);
+    border-top: 1px solid rgba(33,33,33,.15);
+}
+
+.bot-bar {
+    background-color: rgba(33,33,33,.05);
+    color: rgba(17, 17, 17, 0.6);
+    border-top: 1px solid rgba(33,33,33,.15);
+}
+
+.bot-bar ul {
+    list-style-type: none;
+    float: left;
+}
+
+.bot-bar li {
+    float: left;
+    padding: 10px;
+}
